@@ -1,0 +1,50 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.card-image {
+  height: 150px;
+  margin-right: 20px;
+}
+.card-heading {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-desc {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.card-start-count {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-right: 10px;
+  color: black;
+}
+.card-issue {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+.card-end-details {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 30px;
+}
+.card-heading-desc-conatiner {
+  text-align: left;
+}
+.card-end-details-container {
+  display: flex;
+  width: 100%;
+}
